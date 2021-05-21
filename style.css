@@ -1,0 +1,54 @@
+
+body {
+    margin: 0%;
+}
+
+#heading {
+    height: 100px;
+    background-color: #F2C94C;
+    margin-bottom: 40px;
+}
+
+#heading h1 {
+    margin: 0%;
+    padding-top: 35px;
+    text-align: center;
+}
+
+#text-area {
+    width: 40%;
+    margin: auto;
+}
+
+#btn-translate {
+    margin-top: 10px;
+    padding: 24px;
+    background-color: #F2C94C;
+    border: none;
+}
+
+
+#output-desc {
+    margin-top: 35px;
+}
+
+#output {
+    border: 1px solid black;
+    height: 6vh;
+    width: 97%;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+#footer {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+#footer-bgc {
+    margin-top: 5rem;
+    padding: 0.3rem 0px;
+    background-color: #F2C94C;
+}
+
