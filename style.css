@@ -1,43 +1,53 @@
 
-body {
-    margin: 0%;
+:root{
+    --green-color: green;
+    --greenyellow-color: greenyellow;
 }
 
-#heading {
-    height: 100px;
-    background-color: #F2C94C;
-    margin-bottom: 40px;
+body {
+    margin: 0%;
+    background-image: url(./images/minions-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #heading h1 {
-    margin: 0%;
-    padding-top: 35px;
+    color: var(--green-color);
+    font-size: 4rem;
+    margin-top: 2rem;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 #text-area {
-    width: 40%;
+    width: 30%;
     margin: auto;
 }
 
 #btn-translate {
+    font-size: 1rem;
     margin-top: 10px;
-    padding: 24px;
-    background-color: #F2C94C;
-    border: none;
+    padding: 1rem;
+    background-color: var(--greenyellow-color);
+    border-radius: 0.3rem;
+    border: 0rem;
 }
 
 
 #output-desc {
-    margin-top: 35px;
+    margin-top: 0.6rem;
 }
 
 #output {
     border: 1px solid black;
     height: 6vh;
-    width: 97%;
+    width: 70%;
     margin-top: 10px;
     padding: 1rem;
+}
+
+.inline {
+    display: inline;
 }
 
 #footer {
@@ -49,6 +59,9 @@ body {
 #footer-bgc {
     margin-top: 5rem;
     padding: 0.3rem 0px;
-    background-color: #F2C94C;
+    background-color: var(--greenyellow-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
