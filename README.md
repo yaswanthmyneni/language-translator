@@ -1,4 +1,4 @@
-# Minion Language Translator
+# Minion Talk
 This is a language translator app using javascript, here we are translating english language to minion language.
 
 # Build with:
